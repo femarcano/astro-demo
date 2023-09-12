@@ -10,8 +10,6 @@ let launch: Doc | null = null;
 if (id) {
   launch = await getLaunchById({ id });
 }
-
-console.log(launch);
 ---
 
 <Layout title={`Launch ${id}`}>
