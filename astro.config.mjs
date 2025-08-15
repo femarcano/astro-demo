@@ -8,6 +8,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  // Justification: 'server' output mode is required for Vercel serverless deployment.
   output: 'server',
   adapter: vercel()
 });
